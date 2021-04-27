@@ -17,3 +17,5 @@ test('creates a random potion object', () => {
 
 // Notes:
     // There can be multiple tests for 1 function/constructor
+    // What is the value of the this keyword in a constructor function?
+        // - The instance of a new object that’s created using the constructor function
