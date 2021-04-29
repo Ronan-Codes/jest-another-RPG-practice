@@ -45,6 +45,7 @@ test("gets player's health value", () => {
 
     expect(player.getHealth()).toEqual(expect.stringContaining(player.health.toString()))
 })
+// What does toString() do here?
 
 test('checks if player is alive or not', () => {
     const player = new Player('Dave');
